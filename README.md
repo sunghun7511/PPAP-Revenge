@@ -9,4 +9,4 @@ The 19th hackingcamp prob
 
 ## Writeup
 
-The write-up is on [this blog post](https://blog.kshgroup.kr/)
+The write-up is on [this blog post](https://blog.kshgroup.kr/19th-hackingcamp-ppap-revenge)
