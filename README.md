@@ -14,3 +14,7 @@ The source code of PPAPie.ppap is [here](PPAPie/).
 ## Writeup
 
 The write-up is on [this blog post](https://blog.kshgroup.kr/19th-hackingcamp-ppap-revenge)
+
+## License
+
+The GNU GPL v3 is license of this project. [details](LICENSE)
