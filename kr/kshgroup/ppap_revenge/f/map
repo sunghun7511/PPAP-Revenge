@@ -1,0 +1,210 @@
+kr.kshgroup.ppap_revenge.EntryMain -> kr.kshgroup.ppap_revenge.EntryMain:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.ManagerBase -> kr.kshgroup.ppap_revenge.a:
+    void initialize() -> initialize
+    void close() -> close
+kr.kshgroup.ppap_revenge.ProgramManager -> kr.kshgroup.ppap_revenge.b:
+    java.lang.String[] args -> a
+    java.util.List managers -> a
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String[]) -> <init>
+    void initialize() -> initialize
+    void close() -> close
+    java.lang.String removeExtension(java.lang.String) -> a
+    void run() -> run
+    kr.kshgroup.ppap_revenge.ManagerBase getManager(java.lang.Class) -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.exceptions.PPAPIOException -> kr.kshgroup.ppap_revenge.a.a:
+    void <init>(java.lang.String,java.io.IOException) -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.exceptions.PPAPReflectionException -> kr.kshgroup.ppap_revenge.a.b:
+    void <init>(java.lang.String,java.lang.Exception) -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.exceptions.PPAPValueException -> kr.kshgroup.ppap_revenge.a.c:
+    void <init>(java.lang.String) -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.BaseFileManager -> kr.kshgroup.ppap_revenge.b.a:
+    java.util.List fileManagers -> b
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void initialize() -> initialize
+    void close() -> close
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPClass -> kr.kshgroup.ppap_revenge.b.a.a:
+    byte[] SIGNITURE -> a
+    int classNameLength -> a
+    java.lang.String className -> className
+    int length -> length
+    byte[] data -> data
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPFile -> kr.kshgroup.ppap_revenge.b.a.b:
+    byte[] SIGNITURE -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPMeta meta -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPClass mainClass -> a
+    java.util.List classes -> c
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPFileManager -> kr.kshgroup.ppap_revenge.b.a.c:
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPRunnable loader -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPRunnable generator -> b
+    void <init>() -> <init>
+    void initialize() -> initialize
+    void close() -> close
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPLoader getLoader() -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPGenerator getGenerator() -> a
+    byte[] readFile(java.io.File) -> a
+    void writeFile(java.io.File,byte[]) -> a
+    byte[] int2barr(int) -> a
+    int barr2int(byte[]) -> a
+    byte[] crypt(byte[],byte) -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPGenerator -> kr.kshgroup.ppap_revenge.b.a.d:
+    java.io.File mainSource -> a
+    java.util.List sources -> d
+    java.io.File target -> b
+    byte key -> a
+    java.lang.String author -> a
+    void protectJava7() -> a
+    void <init>(kr.kshgroup.ppap_revenge.files.ppap.PPAPFileManager) -> <init>
+    void setMainSouce(java.io.File) -> a
+    void addSource(java.io.File) -> b
+    void setTarget(java.io.File) -> c
+    void setAuthor(java.lang.String) -> a
+    void run() -> run
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPLoader -> kr.kshgroup.ppap_revenge.b.a.e:
+    java.io.File source -> c
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPFile loaded -> a
+    void protectJava7() -> a
+    void <init>(kr.kshgroup.ppap_revenge.files.ppap.PPAPFileManager) -> <init>
+    void setSource(java.io.File) -> d
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPFile getLoaded() -> a
+    void run() -> run
+    boolean startsWith(byte[],byte[],int) -> a
+    byte[] slice(byte[],int,int) -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPFile loadFromBytes(byte[]) -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPMeta -> kr.kshgroup.ppap_revenge.b.a.f:
+    byte[] SIGNITURE -> a
+    byte ppapKey -> b
+    int authorLen -> b
+    java.lang.String author -> a
+    int classCount -> c
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.files.ppap.PPAPRunnable -> kr.kshgroup.ppap_revenge.b.a.g:
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPFileManager manager -> a
+    void protectJava7() -> a
+    void <init>(kr.kshgroup.ppap_revenge.files.ppap.PPAPFileManager) -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.logger.Log -> kr.kshgroup.ppap_revenge.c.a:
+    kr.kshgroup.ppap_revenge.logger.Log root -> a
+    java.util.HashMap logs -> a
+    java.lang.String name -> name
+    kr.kshgroup.ppap_revenge.logger.stream.LogStream stream -> a
+    java.text.SimpleDateFormat dateFormat -> a
+    java.lang.String format -> b
+    void <clinit>() -> <clinit>
+    kr.kshgroup.ppap_revenge.logger.Log getRootLog() -> a
+    void <init>(java.lang.String) -> <init>
+    void setStream(kr.kshgroup.ppap_revenge.logger.stream.LogStream) -> a
+    void log(int,java.lang.String) -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.logger.LogManager -> kr.kshgroup.ppap_revenge.c.b:
+    void <init>() -> <init>
+    void initialize() -> initialize
+    void close() -> close
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.logger.stream.FileLogStream -> kr.kshgroup.ppap_revenge.c.a.a:
+    java.io.File output -> d
+    void <init>() -> <init>
+    void <init>(java.io.File) -> <init>
+    void castLog(int,java.lang.String) -> b
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.logger.stream.LogStream -> kr.kshgroup.ppap_revenge.c.a.b:
+    int logLevel -> d
+    void <init>() -> <init>
+    void <init>(int) -> <init>
+    int getLogLevel() -> a
+    void castLog(int,java.lang.String) -> b
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.logger.stream.OutputStreamLogStream -> kr.kshgroup.ppap_revenge.c.a.c:
+    java.io.OutputStream stream -> a
+    void <init>() -> <init>
+    void castLog(int,java.lang.String) -> b
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.options.ArgumentManager -> kr.kshgroup.ppap_revenge.d.a:
+    java.lang.String[] args -> a
+    kr.kshgroup.ppap_revenge.options.ProgramOption option -> a
+    void <init>(java.lang.String[]) -> <init>
+    void initialize() -> initialize
+    void close() -> close
+    kr.kshgroup.ppap_revenge.options.ProgramOption getOption() -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.options.ArgumentParser -> kr.kshgroup.ppap_revenge.d.b:
+    java.util.Map arguments -> a
+    void <init>() -> <init>
+    boolean addArgument(java.lang.String,java.lang.String,boolean,java.lang.String[]) -> a
+    boolean parse(java.lang.String[]) -> a
+    boolean hasArgumentValue(java.lang.String) -> a
+    java.lang.String getArgumentValue(java.lang.String) -> b
+    void printHelp(java.lang.String,kr.kshgroup.ppap_revenge.logger.Log,int) -> a
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument -> kr.kshgroup.ppap_revenge.d.c:
+    java.lang.String description -> description
+    boolean needSubArg -> a
+    java.util.List alias -> e
+    boolean hasValue -> b
+    java.lang.String value -> value
+    void <init>() -> <init>
+    java.util.List access$0(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument) -> a
+    void <init>(byte) -> <init>
+    void access$2(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument,java.lang.String) -> a
+    void access$3(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument,boolean) -> a
+    void access$4(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument,boolean) -> b
+    boolean access$5(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument) -> a
+    void access$6(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument,java.lang.String) -> b
+    boolean access$7(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument) -> b
+    java.lang.String access$8(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument) -> a
+    java.lang.String access$9(kr.kshgroup.ppap_revenge.options.ArgumentParser$Argument) -> b
+kr.kshgroup.ppap_revenge.options.ProgramOption -> kr.kshgroup.ppap_revenge.d.d:
+    int runType$7f7aeb8 -> e
+    boolean debug -> debug
+    java.lang.String workingDirectory -> c
+    boolean logToFile -> c
+    java.lang.String log_file -> d
+    java.lang.String targetFile -> e
+    java.lang.String sourceFile -> sourceFile
+    java.lang.String mainFile -> f
+    java.lang.String author -> a
+    void <init>() -> <init>
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.options.RunType -> kr.kshgroup.ppap_revenge.d.e:
+    int EXECUTE$7f7aeb8 -> f
+    int GENERATE$7f7aeb8 -> g
+    int PRINT_HELP$7f7aeb8 -> h
+    void <clinit>() -> <clinit>
+kr.kshgroup.ppap_revenge.reflections.ClassManager -> kr.kshgroup.ppap_revenge.e.a:
+    kr.kshgroup.ppap_revenge.reflections.InvokeUtil invoker -> a
+    kr.kshgroup.ppap_revenge.files.ppap.PPAPFile file -> b
+    void <init>() -> <init>
+    void setFile(kr.kshgroup.ppap_revenge.files.ppap.PPAPFile) -> a
+    void initialize() -> initialize
+    void close() -> close
+    void run() -> run
+    boolean lambda$0(java.lang.Integer) -> a
+kr.kshgroup.ppap_revenge.reflections.ClassManager$CustomClassLoader -> kr.kshgroup.ppap_revenge.e.b:
+    kr.kshgroup.ppap_revenge.reflections.ClassManager this$0 -> a
+    void <init>(kr.kshgroup.ppap_revenge.reflections.ClassManager) -> <init>
+    java.lang.Class loadClass(java.lang.String,byte[]) -> a
+kr.kshgroup.ppap_revenge.reflections.InvokeUtil -> kr.kshgroup.ppap_revenge.e.c:
+    byte[] main -> b
+    void <init>() -> <init>
+    void invokeMain(java.lang.Class,java.lang.String[]) -> a
+    boolean lambda$0(java.lang.Integer) -> a
